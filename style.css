@@ -1,0 +1,79 @@
+/* font-family: 'Moirai One', cursive;
+font-family: 'Quicksand', sans-serif; */
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-width: 300px;
+    font-size: 16px;
+    line-height: 1;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 400;
+    line-height: 1.5;
+}
+
+div.top {
+    background-image: linear-gradient(to right, #ff6387, #fac767);
+}
+
+h1 {
+    font-family: 'Moirai One', cursive;
+    text-align: center;
+    padding: 30px;
+    color: aliceblue;
+    font-size: 34px;
+}
+
+div.intro {
+    margin: 5%;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+h3.intro {
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 600;
+    font-weight: 600;
+    font-size: 20px;
+    margin: 20px;
+    color: #f4446d;
+}
+
+p.intro {
+    color: rgb(54, 54, 54);
+}
+
+
+div.container {
+    display: flex;
+    margin-right: 5%;
+    margin-left: 5%;
+}
+  
+
+.block {
+    width: 50%; 
+    height: 300px; 
+    margin-right: 15px; 
+  }
+
+h3.education {
+    font-size: 18px;
+    color: #f4446d;
+    padding-bottom: 15px;
+}
+
+h3.experience {
+    font-size: 18px;
+    color: #f4446d;
+    padding-bottom: 15px;
+}
+
+ul {
+    list-style-type: none;
+}
