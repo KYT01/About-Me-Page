@@ -176,7 +176,7 @@
         }
 
         if (tries === 0) {
-        let allAnswers = "The correct answers were: " + correctAnswers.join(".");
+        let allAnswers = "The correct answers were: " + correctAnswers.join(".");  // Couldnt find another way to do this without 'join' //
             alert("You have used up all your attempts. " + allAnswers);
         }
 
