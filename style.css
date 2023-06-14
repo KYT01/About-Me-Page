@@ -53,22 +53,22 @@ div.container {
     display: flex;
     margin-right: 5%;
     margin-left: 5%;
+    margin-bottom: 0;
 }
   
 
-.block {
+.blockL {
     width: 50%; 
-    height: 300px; 
-    margin-right: 15px; 
+    height: 250px; 
+    margin-right: 20px; 
   }
 
-h3.education {
-    font-size: 18px;
-    color: #f4446d;
-    padding-bottom: 15px;
-}
+.blockR {
+    width: 50%; 
+    height: 250px; 
+  }
 
-h3.experience {
+h3 {
     font-size: 18px;
     color: #f4446d;
     padding-bottom: 15px;
@@ -76,4 +76,19 @@ h3.experience {
 
 ul {
     list-style-type: none;
+}
+
+ol {
+    list-style-type: decimal;
+}
+
+div.list {
+    width: 50%;
+    height: 200px;
+}
+
+div.footer {
+    background-image: linear-gradient(to right, #ff6387, #fac767);
+    height: 50px;
+    margin-top: 50px;
 }

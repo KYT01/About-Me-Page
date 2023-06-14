@@ -1,4 +1,6 @@
         "use strict";
+
+        let points = 0;
         
         let user;
 
@@ -29,6 +31,7 @@
             /* console.log("Incorrect, my cat is called Luigi"); */
         } else if (answer1 === "no") {
             alert("Correct, my cat is called Luigi");
+            points++;
             /* console.log("Correct, my cat is called Luigi"); */
         }
         
@@ -44,6 +47,7 @@
 
         if (answer2 === "yes") {
             alert("Correct, I am mildly allergic to apples");
+            points++;
             /* console.log("Correct, I am mildly allergic to apples"); */
         } else if (answer2 === "no") {
             alert("Incorrect, I am mildly allergic to apples");
@@ -64,6 +68,7 @@
 
         if (answer3 === "yes") {
             alert("Correct, I do live in Peterborough");
+            points++;
             /* console.log("Correct, I do live in Peterborough"); */
         } else if (answer3 === "no") {
             alert("Incorrect, I unfortunately do");
@@ -85,6 +90,7 @@
 
         if (answer4 === "yes") {
             alert("Correct, Im scared of squids");
+            points++;
             /* console.log("Correct, Im scared of squids"); */
         } else if (answer4 === "no") {
             alert("Incorrect, Im scared of squids");
@@ -106,6 +112,7 @@
 
         if (answer5 === "yes") {
             alert("Correct, there is a trillion of them so they would overpower the sun");
+            points++;
             /* console.log("Correct, there is a trillion of them so they would overpower the sun"); */
         } else if (answer5 === "no") {
             alert("Incorrect, there is a trillion of them so they would overpower the sun");
@@ -115,3 +122,63 @@
             /* console.log("Please answer yes or no"); */
         }
 
+
+
+        let correctNumber = 7;
+        let attempts = 4;
+
+        while (attempts > 0) {
+        let guess = +prompt("Guess a number between 1 and 20. You have 4 attempts.");
+
+        if (guess === correctNumber) {
+            alert("Congratulations! You guessed the correct number.");
+            points++;
+        break;
+        } else if (guess > correctNumber) {
+            alert("Too high. Try again.");
+        } else {
+            alert("Too low. Try again.");
+        }
+
+            attempts--;
+        }
+
+        if (attempts === 0) {
+            alert("You have used up all your attempts. The correct number was " + correctNumber + ".");
+        }
+
+
+
+        let correctAnswers = ["apple pie", "apple crumble", "apple turnover"];
+        let tries = 6;
+
+        while (tries > 0) {
+        let guess = prompt("What 3 desserts can you make out of apples?").toLowerCase();
+
+        let correct = false;
+        for (let i = 0; i < correctAnswers.length; i++) {
+        if (guess === correctAnswers[i]) {
+            correct = true;
+        break;
+        }
+        }
+
+        if (correct) {
+            alert("Congratulations! That's a correct answer.");
+            points++;
+            break;
+          } else {
+            alert("That is incorrect. Please try again.");
+          }
+        
+        
+          tries--;
+        }
+
+        if (tries === 0) {
+        let allAnswers = "The correct answers were: " + correctAnswers.join(".");
+            alert("You have used up all your attempts. " + allAnswers);
+        }
+
+alert("Congratulations you got " + points + " out of 7 points!");
+       
