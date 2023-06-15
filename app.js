@@ -17,8 +17,9 @@
         alert("Time for some yes or no questions");
 
 
-
-        let answer1 = prompt("Is my cat called Mario?").toLowerCase();
+function cat(
+){      
+    let answer1 = prompt("Is my cat called Mario?").toLowerCase();
         console.log(answer1);
 
         while (answer1 != "yes" && answer1 != "no") {
@@ -33,10 +34,12 @@
             alert("Correct, my cat is called Luigi");
             points++;
             /* console.log("Correct, my cat is called Luigi"); */
-        }
+        }}
+cat();
         
         
-        
+function apple(
+){        
         let answer2 = prompt("Am I allergic to apples?").toLowerCase();
         console.log(answer2);
 
@@ -55,9 +58,12 @@
         } else {
             alert("Please answer yes or no");
             /* console.log("Please answer yes or no"); */
-        }
+        }}
+apple();
 
 
+function peterborough(
+    ){  
         let answer3 = prompt("Do I live in Peterborough?").toLowerCase();
         console.log(answer3);
 
@@ -76,10 +82,12 @@
         } else {
             alert("Please answer yes or no");
             /* console.log("Please answer yes or no"); */
-        }
+        }}
+peterborough();
 
 
-
+function ocean(
+    ){
         let answer4 = prompt("Do I have a fear of the deep ocean?").toLowerCase();
         console.log(answer4);
 
@@ -98,10 +106,12 @@
         } else {
             alert("Please answer yes or no");
             /* console.log("Please answer yes or no"); */
-        }
+        }}
+ocean();
 
 
-
+function lion(
+    ){
         let answer5 = prompt("Would a trillion lions win in a fight against the sun?").toLowerCase();
         console.log(answer5);
 
@@ -120,7 +130,8 @@
         } else {
             alert("Please answer yes or no");
             /* console.log("Please answer yes or no"); */
-        }
+        }}
+lion();
 
 
 
@@ -176,9 +187,10 @@
         }
 
         if (tries === 0) {
-        let allAnswers = "The correct answers were: " + correctAnswers.join(".");  // Couldnt find another way to do this without 'join' //
+        let allAnswers = "The correct answers were: Apple pie, Apple crumble and Apple turnover"; 
             alert("You have used up all your attempts. " + allAnswers);
         }
 
-alert("Congratulations you got " + points + " out of 7 points!");
+        alert("Congratulations you got " + points + " out of 7 points!");
        
+        
