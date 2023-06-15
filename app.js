@@ -179,7 +179,7 @@ lion();
             points++;
             break;
           } else {
-            alert("That is incorrect. Please try again.");
+            alert("That is not a correct answer. Please try again.");
           }
         
         
