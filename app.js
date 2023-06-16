@@ -29,11 +29,11 @@ function cat(
 
         if (answer1 === "yes") {
             alert("Incorrect, my cat is called Luigi");
-            /* console.log("Incorrect, my cat is called Luigi"); */
+            
         } else if (answer1 === "no") {
             alert("Correct, my cat is called Luigi");
             points++;
-            /* console.log("Correct, my cat is called Luigi"); */
+            
         }}
 cat();
         
@@ -51,13 +51,13 @@ function apple(
         if (answer2 === "yes") {
             alert("Correct, I am mildly allergic to apples");
             points++;
-            /* console.log("Correct, I am mildly allergic to apples"); */
+            
         } else if (answer2 === "no") {
             alert("Incorrect, I am mildly allergic to apples");
-            /* console.log("Incorrect, I am mildly allergic to apples"); */
+            
         } else {
             alert("Please answer yes or no");
-            /* console.log("Please answer yes or no"); */
+            
         }}
 apple();
 
@@ -75,13 +75,13 @@ function peterborough(
         if (answer3 === "yes") {
             alert("Correct, I do live in Peterborough");
             points++;
-            /* console.log("Correct, I do live in Peterborough"); */
+           
         } else if (answer3 === "no") {
             alert("Incorrect, I unfortunately do");
-            /* console.log("Incorrect, I unfortunately do"); */
+            
         } else {
             alert("Please answer yes or no");
-            /* console.log("Please answer yes or no"); */
+            
         }}
 peterborough();
 
@@ -99,13 +99,13 @@ function ocean(
         if (answer4 === "yes") {
             alert("Correct, Im scared of squids");
             points++;
-            /* console.log("Correct, Im scared of squids"); */
+            
         } else if (answer4 === "no") {
             alert("Incorrect, Im scared of squids");
-            /* console.log("Incorrect, Im scared of squids"); */
+            
         } else {
             alert("Please answer yes or no");
-            /* console.log("Please answer yes or no"); */
+            
         }}
 ocean();
 
@@ -123,13 +123,13 @@ function lion(
         if (answer5 === "yes") {
             alert("Correct, there is a trillion of them so they would overpower the sun");
             points++;
-            /* console.log("Correct, there is a trillion of them so they would overpower the sun"); */
+            
         } else if (answer5 === "no") {
             alert("Incorrect, there is a trillion of them so they would overpower the sun");
-            /* console.log("Incorrect, there is a trillion of them so they would overpower the sun"); */
+            
         } else {
             alert("Please answer yes or no");
-            /* console.log("Please answer yes or no"); */
+            
         }}
 lion();
 
@@ -181,8 +181,7 @@ lion();
           } else {
             alert("That is not a correct answer. Please try again.");
           }
-        
-        
+          
           tries--;
         }
 
